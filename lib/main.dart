@@ -39,7 +39,7 @@ class HomeMaterial extends StatefulWidget {
 }
 
 class _HomeMaterialState extends State<HomeMaterial> {
-  final String apiKey = 'e583507cd844cf55e96563fad12f03fb'; // Substitua pela sua API Key
+  final String apiKey ='Substitua pela sua API Key';
   late Future<Map<String, dynamic>?> weatherData; // Variável para armazenar os dados do clima
 
   @override
